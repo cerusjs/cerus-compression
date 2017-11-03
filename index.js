@@ -13,6 +13,7 @@ module.exports = function() {
 
 	var cerus;
 	var compression = require("./lib/compression");
+	var zlib = require("zlib");
 
 	self.init_ = function(cerus_) {
 		cerus = cerus_;

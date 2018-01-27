@@ -1,25 +1,22 @@
 module.exports = function() {
-	var self = {};
-
+	var plugin = {};
 	var package = require("./package.json");
+	var cerus;
+	var compression = require("./lib/compression");
 	
-	self.name = package["name"];
-	self.version = package["version"];
-	self.dependencies = [
+	plugin.name = package["name"];
+	plugin.version = package["version"];
+	plugin.dependencies = [
 		"cerus-promise"
 	];
 
-	var cerus;
-	var compression = require("./lib/compression");
-	var zlib = require("zlib");
-
-	self.init_ = function(cerus_) {
+	plugin.init_ = function(cerus_) {
 		cerus = cerus_;
 	}
 
-	self.compression = function(type) {
+	plugin.compression = function(type) {
 		return compression(cerus, type);
 	}
 
-	return self;
+	return plugin;
 }

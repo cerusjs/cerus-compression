@@ -11,7 +11,9 @@
 	"bugs": {
 		"url": "https://github.com/cerusjs/cerus-compression/issues"
 	},
-	"scripts": {},
+	"scripts": {
+		"lint": "eslint lib/"
+	},
 	"homepage": "https://github.com/cerusjs/cerus-compression",
 	"dependencies": {}
 }

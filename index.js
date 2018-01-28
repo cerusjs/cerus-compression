@@ -15,7 +15,7 @@ module.exports = function() {
 	}
 
 	plugin.compression = function(type) {
-		return compression(cerus, type);
+		return new compression(cerus, type);
 	}
 
 	return plugin;

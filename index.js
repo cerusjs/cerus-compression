@@ -10,7 +10,7 @@ module.exports = function() {
 		"cerus-promise"
 	];
 
-	plugin.init_ = function(cerus_) {
+	plugin._init = function(cerus_) {
 		cerus = cerus_;
 	}
 

@@ -1,0 +1,24 @@
+{
+	"name": "cerus-compression",
+	"version": "0.1.3",
+	"description": "The compression module for CerusJS",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cerusjs/cerus-compression.git"
+	},
+	"author": "cerusjs",
+	"bugs": {
+		"url": "https://github.com/cerusjs/cerus-compression/issues"
+	},
+	"scripts": {
+		"test": "./node_modules/.bin/mocha tests --reporter spec",
+		"lint": "eslint lib/"
+	},
+	"homepage": "https://github.com/cerusjs/cerus-compression",
+	"dependencies": {},
+	"devDependencies": {
+		"chai": "^4.1.2",
+		"mocha": "5.1.1"
+	}
+}

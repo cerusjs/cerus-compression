@@ -1,6 +1,6 @@
 {
 	"name": "cerus-compression",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"description": "The compression module for CerusJS",
 	"main": "index.js",
 	"repository": {

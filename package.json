@@ -18,6 +18,7 @@
 	"homepage": "https://github.com/cerusjs/cerus-compression",
 	"dependencies": {},
 	"devDependencies": {
+		"cerus": "^0.1.9",
 		"chai": "^4.1.2",
 		"mocha": "5.1.1"
 	}
